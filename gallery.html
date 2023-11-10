@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Gallery</title>
+</head>
+
+<body>
+    <input type="button" name="show" value="Gallery" onclick="showImg()" />
+    
+    <div style="display:none;" class="gallery" id="gallery">
+        <div class="gallery-item">
+            <img src="https://picsum.photos/id/1/500/300" alt="Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="https://picsum.photos/id/2/500/300" alt="Image 2">
+        </div>
+        <div class="gallery-item">
+            <img src="https://picsum.photos/id/3/500/300" alt="Image 3">
+        </div>
+        <div class="gallery-item">
+            <img src="https://picsum.photos/id/4/500/300" alt="Image 4">
+        </div>
+        <div class="gallery-item">
+            <img src="https://picsum.photos/id/5/500/300" alt="Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="https://picsum.photos/id/6/500/300" alt="Image 6">
+        </div>
+    </div>
+</body>
+
+<script>
+    function showImg() {
+        document.getElementById('gallery').style.display = "block";
+    }
+</script>
+
+</html>
