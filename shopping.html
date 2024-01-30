@@ -28,31 +28,20 @@
   <div class="row">
     <div class="col-9 text-start">
       <!-- <img src="https://www.sathetours.com/admin/uploads/tours/photos/thumb43seven-sisters-fall-AS.jpg"> -->
-        <h2>A Clothing Center </h2>
+             <div class="row mrg-top-5">
+          <div class="col text-center">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="https://logowik.com/content/uploads/images/a-energy3879.jpg"  alt="sales">
+              <h2> Clothing Center </h2>
+              
+                  
+                  <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#MenWear">
+                    Men Wears
+                  </button> -->
+              </div>
+            </div>
+          </div>
     </div>
-
-    <!-- <div class="col-6">
-      <div class="row">
-        <div class="col text-center">
-          <h2> Travel Sathi</h2>
-        </div>
-      </div>
-      <br>
-      <div class="row">
-        <div class="col text-center">
-          <h5>Plan your trip, and enjoy your trip</h5>
-        </div>
-      </div>
-      <br><br>
-      <div class="row">
-        <div class="col">
-          <form class="form-inline my-2 my-lg-0" style="justify-content: center;">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search Location" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </div> -->
 
     <div class="col-3 text-end">
         <i class="fa-solid fa-heart"></i>
@@ -74,8 +63,30 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">Home</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
+            <!-- <li class="nav-item">
+                <a class="nav-link dropdown" href="#">Product</a>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item" type="button">MenWears</button>
+                    <button class="dropdown-item" type="button">WomenWears</button>
+                    <button class="dropdown-item" type="button">KidWears</button>
+                  </div>
+                </div>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item"  data-toggle="modal" data-target="#MenWear" href="#">MenWears</a>
+
+                <a class="dropdown-item" data-toggle="modal" data-target="#WomenWear"  href="#">WomenWears</a>
+                <!-- <div class="dropdown-divider"></div> -->
+                <a class="dropdown-item" data-toggle="modal" data-target="#KidsWear" href="#">KidWears</a>
+              </div>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
@@ -104,30 +115,36 @@
   <div class="row mrg-top-5">
     <div class="col text-center">
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sales">
+        <img class="card-img-top" src="https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="sales">
         <div class="card-body">
-            <h5 class="card-title">Rs 1199, Now 800</h5>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+            <h5 class="card-title">Rs <span class="old-price">1199</span>, Now <span class="new-price">800</span></h5>
+            <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#MenWear">
               Men Wears
-            </button>
+            </button> -->
         </div>
       </div>
     </div>
     <div class="col text-center">
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://images.pexels.com/photos/603022/pexels-photo-603022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sales">
+        <img class="card-img-top" src="https://img.freepik.com/free-photo/attractive-stylish-woman-choosing-apparel-clothing-store_285396-4624.jpg?w=740&t=st=1705997219~exp=1705997819~hmac=b36b6daf33cfd9044c0acbaadfb844684fbe7d422e4162f096fd1dd37fd91d96 alt="Sales">
         <div class="card-body">
-          <h5 class="card-title">Rs 2499, Now 999</h5>
+          <h5 class="card-title">Rs <span class="old-price">2499</span>, Now <span class="new-price">900</span></h5>
           <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#WomenWear">
+            Women Wears
+          </button> -->
         </div>
       </div>
     </div>
     <div class="col text-center">
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://images.pexels.com/photos/297933/pexels-photo-297933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sales">
+        <img class="card-img-top" src="https://media.istockphoto.com/id/477001758/photo/dressing-closet-with-baby-clothes-arranged-on-hangers.jpg?s=1024x1024&w=is&k=20&c=t1iUjfdgiNImup1LQbUMqL6i6DRwaFZKGk5KmxHLosc="Sales">
         <div class="card-body">
-          <h5 class="card-title">Rs 1499, Now 699</h5>
+          <h5 class="card-title">Rs<span class="old-price">1499</span>, Now <span class="new-price">699</span></h5> 
           <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#KidsWear">
+            Kids Wears
+          </button> -->
         </div>
       </div>
     </div>
@@ -138,10 +155,16 @@
 
   <div class="row mrg-top-5">
     <div class="col text-center">
+      <h2>Trending </h2>
+      </div>
+      </div>
+
+  <div class="row mrg-top-5">
+    <div class="col text-center">
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="https://images.pexels.com/photos/5872/fashion-red-yellow-designer-5872.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sales">
         <div class="card-body">
-          <h5 class="card-title">Rs 1179, Now 599</h5>
+          <h5 class="card-title">Rs <span class="old-price">1179</span>, Now <span class="new-price">599</span></h5>
           <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
         </div>
       </div>
@@ -150,7 +173,7 @@
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sales">
         <div class="card-body">
-          <h5 class="card-title">Rs 4999, Now 2499</h5>
+          <h5 class="card-title">Rs <span class="old-price">4999</span>, Now <span class="new-price">2499</span></h5>
           <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
         </div>
       </div>
@@ -159,7 +182,7 @@
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sales">
         <div class="card-body">
-          <h5 class="card-title">Rs 2199, Now 1299</h5>
+          <h5 class="card-title">Rs<span class="old-price">2199</span>, Now <span class="new-price">1299</span></h5> 
           <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
         </div>
       </div>
@@ -167,17 +190,12 @@
   </div>
 </div>
 
-<!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-  Launch demo modal
-</button> -->
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<!-- Modal - Men Wears -->
+<div class="modal fade" id="MenWear" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Men Wears</h5>
+        <h5 class="modal-title" id="MenWearTitle">Men Wears</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -212,10 +230,90 @@
           </div>
         </div>
       </div>
-      <!-- <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div> -->
+    </div>
+  </div>
+</div>
+
+<!-- Modal - Women Wears -->
+<div class="modal fade" id="WomenWear" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="WomanWearTitle">Women Wears</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row mrg-top-5">
+          <div class="col text-center">
+            <div class="card" style="width: 28rem;">
+              <img class="card-img-top" src="https://images.pexels.com/photos/265705/pexels-photo-265705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sales">
+              <div class="card-body">
+                  <h5 class="card-title">Rs 800</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col text-center">
+            <div class="card" style="width: 28rem;">
+              <img class="card-img-top" src="https://media.istockphoto.com/id/502660448/photo/wedding-dress-rack.jpg?s=1024x1024&w=is&k=20&c=6wclu3EQx-256F6s_8iOQvnu5JMR_sqBAiG75aj82Hk=" alt="Sales">
+              <div class="card-body">
+                <h5 class="card-title">Rs 999</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col text-center">
+            <div class="card" style="width: 28rem;">
+              <img class="card-img-top" src="https://media.istockphoto.com/id/1583056628/photo/beautiful-wedding-bridal-dresses-on-mannequin-in-showroom-in-mall.jpg?s=1024x1024&w=is&k=20&c=5agjqJrwRX_fQY3kM9tUXWMxdAO0NJrYWuqVjsgoc3k=" alt="Sales">
+              <div class="card-body">
+                <h5 class="card-title">Rs 699</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal - Kids Wears -->
+<div class="modal fade" id="KidsWear" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="KidsWearTitle">Kids Wears</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row mrg-top-5">
+          <div class="col text-center">
+            <div class="card" style="width: 28rem;">
+              <img class="card-img-top" src="https://media.istockphoto.com/id/1446100569/photo/child-fashion-and-shopping-while-choosing-kids-clothing-in-a-shop-store-or-boutique-with-a.jpg?s=1024x1024&w=is&k=20&c=UoFgfRH5gKNpJdwAGICJoEi89HCn32ALtJcUOsw0CMs=" alt="Sales">
+              <div class="card-body">
+                  <h5 class="card-title">Rs 800</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col text-center">
+            <div class="card" style="width: 28rem;">
+              <img class="card-img-top" src="https://media.istockphoto.com/id/1147959820/photo/cute-little-girl-dress-hanging-on-wooden-stick.jpg?s=1024x1024&w=is&k=20&c=U_bSSr13W4uBn5Ip_C5uIQ5VkeNS6Vpr5xiAz_P3AEo=" alt="Sales">
+              <div class="card-body">
+                <h5 class="card-title">Rs 999</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col text-center">
+            <div class="card" style="width: 28rem;">
+              <img class="card-img-top" src="https://media.istockphoto.com/id/508756496/photo/child-girl-cotton-bright-summer-clothes-set-collage-isolated.jpg?s=1024x1024&w=is&k=20&c=7sd-McNcOzKlGMPTxD5im979EHPmiu4FhuqE8qEwkV8=" alt="Sales">
+              <div class="card-body">
+                <h5 class="card-title">Rs 699</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -299,6 +397,15 @@ footer.page-footer a {
 
   .blue {
     background-color: #2196f3 !important;
+}
+
+.old-price {
+  color: red;
+  text-decoration: line-through;
+}
+
+.new-price  {
+  color: green;
 }
 </style>
   
