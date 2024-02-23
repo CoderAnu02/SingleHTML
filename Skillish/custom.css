@@ -3,18 +3,62 @@
     color: rgba(255,255,255,1);
 }
 
+.user-image {
+    width: 75px;
+    border-radius: 50%;
+}
+
+.post-img   {
+    width: 18rem;
+}
+
 .follow-btn {
     margin-left: 90%;
     margin-top: 5px;
 }
 
+.user-detail .user-info .user-name  {
+    font-weight: 700;
+}
+
+.post-blog  {
+    margin-top: 40px;
+}
 
 .mrg-top-10  {
     margin-top: 10px;
 }
 
 .mrg-top-5  {
-    margin-top: 5px;
+    margin-top: 5px !important;
+}
+
+.mrg-lr-15pec    {
+    margin: auto 20%;
+}
+
+.mrg-tb-5pec    {
+    margin: 5% auto !important;
+}
+
+.mrg-top-30px   {
+    margin-top: 30px;
+}
+
+.action-icon span   {
+    margin: auto 15px !important;
+}
+
+.hide   {
+    display: none !important;
+}
+
+.hide-visibility {
+    visibility: hidden;
+}
+
+.pointer    {
+    cursor: pointer;
 }
 
 footer.blue {
