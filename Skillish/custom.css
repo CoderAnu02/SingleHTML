@@ -1,0 +1,41 @@
+/* Navigation menu */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+
+.follow-btn {
+    margin-left: 90%;
+    margin-top: 5px;
+}
+
+
+.mrg-top-10  {
+    margin-top: 10px;
+}
+
+.mrg-top-5  {
+    margin-top: 5px;
+}
+
+footer.blue {
+    background-color: #2196f3 !important;
+}
+
+footer.pt-4, 
+footer.py-4 {
+    padding-top: 1.5rem !important;
+}
+
+footer.font-small {
+    font-size: .9rem;
+}
+
+
+footer.page-footer {
+    bottom: 0;
+    color: #fff;
+}
+
+footer.page-footer a {
+    color: #fff;
+}
