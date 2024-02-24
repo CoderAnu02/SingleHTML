@@ -13,7 +13,6 @@
 }
 
 .follow-btn {
-    margin-left: 90%;
     margin-top: 5px;
 }
 
@@ -23,6 +22,10 @@
 
 .post-blog  {
     margin-top: 40px;
+    padding: 15px;
+    padding: 15px;
+    border: 15px solid #93c572;
+    border-radius: 15px;
 }
 
 .mrg-top-10  {
