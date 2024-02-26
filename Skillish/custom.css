@@ -24,8 +24,7 @@
     margin-top: 40px;
     padding: 15px;
     padding: 15px;
-    border: 15px solid #93c572;
-    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px;
 }
 
 .mrg-top-10  {
