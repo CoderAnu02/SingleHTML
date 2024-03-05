@@ -77,6 +77,14 @@
     margin-top: 30px;
 }
 
+.connection-link    {
+    width: 30%;
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
 .action-icon span   {
     margin: auto 15px !important;
 }
