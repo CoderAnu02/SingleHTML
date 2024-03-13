@@ -101,6 +101,12 @@
     cursor: pointer;
 }
 
+.page-footer-login {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 footer.blue {
     background-color: #2196f3 !important;
 }
