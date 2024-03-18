@@ -85,6 +85,15 @@
     cursor: pointer;
 }
 
+.registration input,
+.registration select {
+    width: 75% !important;
+}
+
+.registration form {
+    background-image:url("https://images2.goabroad.com/image/upload/v1652722967/images2/program_content/fqXJkMpJjWPR0nVLIiwYoa1bBDmw6u7sdDc0o1Gz.jpg"); 
+}
+
 .action-icon span   {
     margin: auto 15px !important;
 }
